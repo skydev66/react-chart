@@ -110,10 +110,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	            };
 	        }
 
+			//Add event on component did mount
 	        classData.componentDidMount = function() {
 	            this.initializeChart(this.props);
 	        };
 
+			//Destroye on component will mount
 	        classData.componentWillUnmount = function() {
 	            var chart = this.state.chart;
 	            chart.destroy();
