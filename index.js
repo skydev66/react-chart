@@ -1,3 +1,4 @@
+//Module export
 module.exports = {
   Bar: require('./lib/bar'),
   Doughnut: require('./lib/doughnut'),
